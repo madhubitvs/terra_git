@@ -9,13 +9,15 @@ terraform {
   required_version = ">= 0.14.9"
 }
 
-provider "aws" {
-  #profile = "default"
-  region  = "us-east-1"
-  access_key = "AKIAZRKSNYAUOSXFZ3N3"
-  secret_key = "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"
 
-}
+#provider "aws" {
+ #profile = "default"
+  #region  = "us-east-1"
+  #access_key = "AKIAZRKSNYAUOSXFZ3N3"
+  #secret_key = "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"
+
+#}
+
 
 
 resource "aws_instance" "mat_first-instance" {
